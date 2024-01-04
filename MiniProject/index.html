@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RevoU | Muhammad Fariz</title>
+  <script src="js/scipt.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>
+        <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/01/15/1853786887.jpg" alt="keliling Segitiga">
+      </td>
+      <td>
+        <form action="">
+          <h2>Kalkulator Luas Segitiga</h2>
+          <label for="alas">
+            <p>Alas : </p>
+          </label>
+          <input type="number" name="alas" id="alas">
+          <label for="tinggi">
+            <p>Tinggi :</p>
+          </label>
+          <input type="number" name="tinggi" id="tinggi">
+          <br><br>
+          <button type="reset">Reset</button>
+          <button type="button" onclick="luasSegitiga()">Hitung</button>
+          <div id="rumusLuas" class="result"></div>
+          <div id="step1Luas" class="result"></div>
+          <div id="hasilLuas" class="result"></div>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/01/15/3991804788.jpg" alt="keliling Segitiga">
+      </td>
+      <td>
+        <form action="">
+          <h2>Kalkulator Keliling Segitiga</h2>
+          <label for="alas">
+            <p>Sisi A : </p>
+          </label>
+          <input type="number" name="sisiA" id="sisiA">
+          <label for="tinggi">
+            <p>Sisi B :</p>
+          </label>
+          <input type="number" name="sisiB" id="sisiB">
+          <label for="tinggi">
+            <p>Sisi C :</p>
+          </label>
+          <input type="number" name="sisiC" id="sisiC">
+          <br><br>
+          <button type="reset">Reset</button>
+          <button type="button" onclick="kelilingSegitiga()">Hitung</button>
+          <div id="rumusKeliling" class="result"></div>
+          <div id="step1Keliling" class="result"></div>
+          <div id="hasilKeliling" class="result"></div>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  
+
+  <br><br>
+
+  
+
+</body>
+
+</html>
